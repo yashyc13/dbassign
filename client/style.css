@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: whitesmoke;
+}
+#load-btn ,
+#refresh-btn {
+  color: white;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: #0275d8;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 2%; 
+}
+#refresh-btn {
+  margin-left: 45%;
+}
+#load-btn:hover,#refresh-btn:hover {
+  background-color: #009;
+}
+
+#table-container {
+  margin: auto;
+}
+
+table {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 80%;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: scroll;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  padding: 4px;
+}
+th {
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: mediumslateblue;
+  color: white;
+  text-align: center;
+}
+tr {
+  height: 4%;
+}
+
+.hidden {
+  display: none;
+}
+
+table tr:nth-child(odd) {
+  background-color: ghostwhite;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+
+#add-user {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: #0275d8;
+}
+#add-user:hover {
+  background-color: #009;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 95%;
+  max-width: fit-content;
+  white-space: nowrap;
+  font-size: 12px;
+} 
